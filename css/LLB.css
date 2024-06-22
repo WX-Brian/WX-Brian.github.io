@@ -1,0 +1,167 @@
+body {  
+    font-family: Arial, sans-serif;   
+    background-image: url('../images/llb-background.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center ; 
+    color: #333;  
+}  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(191, 240, 243);
+    height: 80px;
+}
+header h1{
+	float: inline-start;
+	font-family: "YouYuan";
+	font-style: italic;
+	font-size: xxx-large;
+	color: rgb(142, 179, 249);
+}
+
+header p{
+	float: inline-end;
+	font-family: fantasy;
+	font-style: italic;
+	font-size: xxx-large;
+}
+
+nav ul{
+	height: 50px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: dodgerblue;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul li {
+	float: left;
+	padding: 0 115px;
+}
+
+nav ul li.now{
+	background-color: skyblue;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 16px;
+	color: white;
+	font-size: medium;
+}
+nav ul li a:hover {
+	background-color: skyblue;
+	color: white;
+}
+
+
+  
+h1 {  
+    text-align: center;  
+    color: #2196F3;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+}  
+  
+form {  
+    max-width: 600px;  
+    margin: 0 auto;  
+    padding: 30px;  
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */  
+    border-radius: 10px;  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);  
+} 
+  
+form div {  
+    margin-bottom: 20px;  
+}  
+  
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+    color: #666;  
+}  
+  
+input[type="text"],  
+input[type="tel"],  
+textarea,  
+select {  
+    width: 100%;  
+    padding: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-sizing: border-box;  
+    font-size: 16px;  
+    transition: border-color 0.3s ease;  
+}  
+  
+input[type="text"]:focus,  
+input[type="tel"]:focus,  
+textarea:focus,  
+select:focus {  
+    border-color: #2196F3;  
+}  
+  
+textarea {  
+    resize: vertical;  
+    height: 100px;  
+}  
+  
+button[type="submit"] {  
+    display: block;  
+    width: 100%;  
+    padding: 15px;  
+    background-color: #2196F3;  
+    color: #fff;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+  
+button[type="submit"]:hover {  
+    background-color: #1976d2;  
+}  
+  
+/* 清除默认的表单样式 */  
+input[type="submit"]::-moz-focus-inner,  
+button::-moz-focus-inner {  
+    border: 0;  
+    padding: 0;  
+}
+
+
+footer{
+	height: 95px;
+	background-color: #1c87d9;
+}
+
+
+footer div#center{
+	width: 950px;
+    text-align: right;
+	background-color: #1c87d9;
+	color: darkgray;
+	float: inline-start;
+	line-height: 45px;
+}
+
+footer p#right{
+	text-align: right;
+	line-height: 100px;
+	width:300px;
+    font-family: monospace;
+	float: inline-end;
+	font-size: XX-large;
+
+}
+
+
+

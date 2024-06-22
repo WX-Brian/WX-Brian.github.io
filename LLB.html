@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Log</title>
+    <link rel="stylesheet" href="./css/LLB.css">
+</head>
+<body>
+    <header>
+        
+            <h1>世界很大，我想去看看</h1>
+
+            <p> Travel farther,Know more</p>
+        
+    </header>
+
+    <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li ><a href="GZ.html">广州</a></li>
+                <li><a href="ZJJ.html">张家界</a></li>
+                <li><a href="YY.html">岳阳</a></li>
+                <li class="now"><a href="LLB.html">留言板</a></li>
+            </ul>
+    </nav>
+    
+    <h1>留言板</h1>  
+    <form id="message-form" method="post">  
+        <div>  
+            <label for="name">姓名:</label>  
+            <input type="text" id="name" name="name" required>  
+        </div>  
+        <div>  
+            <label for="phone">联系电话:</label>  
+            <input type="tel" id="phone" name="phone" required>  
+        </div>  
+        <div>  
+            <label for="gender">性别:</label>  
+            <select id="gender" name="gender" required>  
+                <option value="male">男</option>  
+                <option value="female">女</option>  
+                <option value="other">其他</option>  
+            </select>  
+        </div>  
+        <div>  
+            <label for="suggestion">意见或建议:</label>  
+            <textarea id="suggestion" name="suggestion" rows="4" required></textarea>  
+        </div>  
+        <div>  
+            <button type="submit">提交</button>  
+        </div>  
+    </form>  
+
+    <footer>
+        <div id="center">
+           <p>Copyright@2024 鄂ICP备 202221130216号
+           <p> email:2035038875@qq.com</p>
+        </div>
+           <p id="right">Always On My Way</p>
+     </footer>
+
+
+</body>
+</html>

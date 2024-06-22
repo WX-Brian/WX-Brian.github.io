@@ -1,0 +1,116 @@
+body{
+    /* 渐变背景 */
+    background: linear-gradient(200deg,#f5f7fa,#397dec);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(191, 240, 243);
+    height: 80px;
+}
+header h1{
+	float: inline-start;
+	font-family: "YouYuan";
+	font-style: italic;
+	font-size: xxx-large;
+	color: rgb(142, 179, 249);
+}
+
+header p{
+	float: inline-end;
+	font-family: fantasy;
+	font-style: italic;
+	font-size: xxx-large;
+}
+
+nav ul{
+	height: 50px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: dodgerblue;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul li {
+	float: left;
+	padding: 0 115px;
+}
+
+nav ul li.now{
+	background-color: skyblue;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 16px;
+	color: white;
+	font-size: medium;
+}
+nav ul li a:hover {
+	background-color: skyblue;
+	color: white;
+}
+
+
+aside{
+	display: table-cell;
+    width: 280px;
+	margin: 10px;
+	margin-top:  70px;
+    border-color: rgb(72, 182, 173);
+	border-width: 3px;
+	border-style: double;
+	float: right;
+	text-align: center;
+	background-color: floralwhite;
+
+}
+
+aside h2{
+	text-align: center;
+    margin: 0 30px 10px 30px;
+}
+
+aside p{
+	text-align: left;
+	text-indent: 2em;
+	padding:10px;
+}
+
+div#table{
+	text-align: center;
+	margin: 30px;
+	margin-left: 10px;
+}
+
+footer{
+	height: 95px;
+	background-color: #1c87d9;
+	
+}
+
+
+footer div#center{
+	width: 950px;
+    text-align: right;
+	background-color: #1c87d9;
+	color: darkgray;
+	float: inline-start;
+	line-height: 45px;
+}
+
+footer p#right{
+	text-align: right;
+	line-height: 80px;
+	width:300px;
+    font-family: monospace;
+	float: inline-end;
+	font-size: XX-large;
+
+}
+

@@ -1,0 +1,172 @@
+body{
+    background-image: url("../images/gz-background.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(191, 240, 243);
+    height: 80px;
+}
+header h1{
+	float: inline-start;
+	font-family: "YouYuan";
+	font-style: italic;
+	font-size: xxx-large;
+	color: rgb(142, 179, 249);
+}
+
+header p{
+	float: inline-end;
+	font-family: fantasy;
+	font-style: italic;
+	font-size: xxx-large;
+}
+
+nav ul{
+	height: 50px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: dodgerblue;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul li {
+	float: left;
+	padding: 0 115px;
+}
+
+nav ul li.now{
+	background-color: skyblue;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 16px;
+	color: white;
+	font-size: medium;
+}
+nav ul li a:hover {
+	background-color: skyblue;
+	color: white;
+}
+/* 冻结布局 */
+#main{
+    height: 1200px;
+    width: 1000px;
+    padding:5px;
+    
+    /* 凝胶布局 */
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+#main img{
+    margin: 10px 20px;
+}
+
+#main div#first{
+    width: 400px;
+    height: 410px;
+    background-color: rgb(145, 220, 243);
+    border-radius: 10%;
+    margin: 25px;
+    margin-top: 10px;
+    float:left;
+    text-align: center;
+
+}
+
+
+div#main div#second{
+    float: left;
+    height: 360px;
+    width: 500px;
+    margin: 25px;
+    margin-top: 10px;
+    background-color: rgb(145, 220, 243);
+    text-align: center;
+    border-radius: 10%;
+}
+
+div#main div#third{
+    float: left;
+    height: 360px;
+    width: 350px;
+    margin: 25px;
+    margin-left: 50px;
+    background-color: rgb(145, 220, 243);
+    text-align: center;
+    border-radius: 10%;
+}
+
+div#main div#fourth{
+    float: left;
+    height: 380px;
+    width: 350px;
+    margin: 0 25px 0 25px;
+    background-color:rgb(145, 220, 243);
+    border-radius: 10%;
+    text-align: center;
+}
+
+div#main div#fifth{
+    float: left;
+    height: 350px;
+    width: 520px;
+    margin:  25px;
+    background-color:rgb(145, 220, 243);
+    text-align: center;
+    border-radius: 10%;
+}
+
+div#main div#sixth{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 25px;
+    margin-right: 50px;
+    background-color:rgb(145, 220, 243);
+    text-align: center;
+    border-radius: 10%;
+}
+
+div#main p{
+    font-size: large;
+    font-family: cursive;
+}
+
+
+
+footer{
+	height: 95px;
+	background-color: #1c87d9;
+	
+}
+
+
+footer div#center{
+	width: 950px;
+    text-align: right;
+	background-color: #1c87d9;
+	color: darkgray;
+	float: inline-start;
+	line-height: 45px;
+}
+
+footer p#right{
+	text-align: right;
+	line-height: 80px;
+	width:300px;
+    font-family: monospace;
+	float: inline-end;
+	font-size: XX-large;
+
+}
+

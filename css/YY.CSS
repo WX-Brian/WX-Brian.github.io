@@ -1,0 +1,238 @@
+body{
+    /* 渐变背景 */
+    background: linear-gradient(200deg,#f5f7fa,#397dec);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(191, 240, 243);
+    height: 80px;
+}
+header h1{
+	float: inline-start;
+	font-family: "YouYuan";
+	font-style: italic;
+	font-size: xxx-large;
+	color: rgb(142, 179, 249);
+}
+
+header p{
+	float: inline-end;
+	font-family: fantasy;
+	font-style: italic;
+	font-size: xxx-large;
+}
+
+nav ul{
+	height: 50px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: dodgerblue;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul li {
+	float: left;
+	padding: 0 115px;
+}
+
+nav ul li.now{
+	background-color: skyblue;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 16px;
+	color: white;
+	font-size: medium;
+}
+nav ul li a:hover {
+	background-color: skyblue;
+	color: white;
+}
+
+div#main{
+    font-family:cursive;
+}
+
+div#main img{
+    background-color: aliceblue;
+	  border-radius: 5%;
+}
+
+div#main div#first{
+	width: 1350px;
+	text-align: center;
+	font-size: large;
+	font-style: normal;
+	
+}
+
+div#main div#first img{
+      position: relative;
+	  margin: 25px 50px 10px 50px;
+	  margin-left: 230px;
+	  padding: 50px;
+	 
+}
+
+div#main div#first div#n{
+	float: right;
+	margin-top: 200px;
+	margin-right: 50px;
+	font-size: xx-large;
+	
+}
+
+div#main div#second{
+	width: 1350px;
+	height: 450px;
+	text-align: right;
+	font-size: large;
+	font-style: normal;
+	
+}
+
+div#main div#second img{
+      position: relative;
+	  margin:20px 50px 0 50px; 
+	  margin-left: 0px;
+	  padding: 50px;
+	  background-color: aliceblue;
+	  
+}
+
+div#main div#second div#y{
+	float: left;
+	margin-top: 200px;
+	font-size: xx-large;
+	width: 770px;
+	
+}
+
+
+div#main div#third{
+	width: 1350px;
+	font-size: large;
+	font-style: normal;
+	
+}
+
+div#main div#third img{
+     padding: 50px;
+	 margin: 0  25px;
+	 margin-left: 300px;
+	 background-color: aliceblue;
+	  
+}
+
+div#main div#third div#yj{
+	margin-top: 180px;
+	margin-right: 50px;
+	float: right;
+	font-size: xx-large;
+	
+}
+
+div#main div#fourth{
+	width: 1350px;
+	height: 450px;
+	text-align: right;
+	font-size: large;
+
+	
+}
+
+div#main div#fourth img{
+      position: relative;
+	  margin: 50px;
+	  margin-left: 0px;
+	  padding: 50px;
+	  background-color: aliceblue;
+	  
+}
+
+div#main div#fourth div#d{
+	float: left;
+	margin-top: 200px;
+	margin-left: 370px;
+	font-size: xx-large;
+}
+
+div#main div#fifth{
+	width: 1350px;
+	font-size: large;
+	font-style: normal;
+	
+}
+
+div#main div#fifth img{
+     padding: 50px;
+	 margin: 25px;
+	 margin-left: 380px;
+	 background-color: aliceblue;
+	  
+}
+
+div#main div#fifth div#w{
+	margin-top: 180px;
+	margin-right: 100px;
+	float: right;
+	font-size: xx-large;
+	
+}
+
+
+footer{
+	height: 95px;
+	background-color: #1c87d9;
+}
+
+
+footer div#center{
+	width: 950px;
+    text-align: right;
+	background-color: #1c87d9;
+	color: darkgray;
+	float: inline-start;
+	line-height: 45px;
+}
+
+footer p#right{
+	text-align: right;
+	line-height: 100px;
+	width:300px;
+    font-family: monospace;
+	float: inline-end;
+	font-size: XX-large;
+
+}
+
+
+
+ aside{
+	position: absolute;
+	margin-top: 25px;
+    width: 200px;
+    border-color: rgb(72, 182, 173);
+	border-width: 3px;
+	border-style: double;
+	text-align: center;
+	background-color: floralwhite;
+}
+
+ aside h2{
+	text-align: center;
+    margin: 0 30px 10px 30px;
+}
+
+ aside p{
+	text-align: left;
+	text-indent: 2em;
+	padding:20px;
+}
